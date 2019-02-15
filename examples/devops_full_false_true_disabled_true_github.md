@@ -1,24 +1,25 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 20
+**commit count**: 22
 
 **additions**: 10
 
 **removals**: 0
 
-**changes**: 1
+**changes**: 2
 
 **fixes**: 6
 
 **merges**: 0
 
-**updates**: 1
+**updates**: 2
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
+
 *addition:* add fixes to statistics
 
 *addition:* add update commit support
@@ -39,6 +40,8 @@
 
 *addition:* add intellij files
 
+*change:* change text newline to be before each commit
+
 *change:* change test to use current repository
 
 *fix:* fix displaying `***` by using html escape char
@@ -55,7 +58,8 @@
 
 *update:* update examples
 
+*update:* update examples
+
 *other:* escape fix symbol
 
 *other:* Initial commit
-

@@ -1,25 +1,26 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 20
+**commit count**: 22
 
 **additions**: 10
 
 **removals**: 0
 
-**changes**: 1
+**changes**: 2
 
 **fixes**: 6
 
 **merges**: 0
 
-**updates**: 1
+**updates**: 2
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
 ##### Additions
+
  add fixes to statistics
 
  add update commit support ([description](#2a422db9-15))
@@ -39,13 +40,15 @@
  add basic readme ([description](#f79ea73c-15))
 
  add intellij files ([description](#03a42bd4-15))
-
 ##### Removals
 
 ##### Changes
- change test to use current repository ([description](#3f118290-15))
 
+ change text newline to be before each commit ([description](#8b8ab47f-15))
+
+ change test to use current repository ([description](#3f118290-15))
 ##### Fixes
+
  fix displaying `***` by using html escape char
 
  fix using incorrect variable for update commits ([description](#e2893c62-15))
@@ -57,17 +60,18 @@
  fix using `mergeCommits` instead of `fixCommits`
 
  fix code block not showing everything ([description](#0db93166-15))
-
 ##### Merges
 
 ##### Updates
+
  update examples
 
+ update examples
 ##### Other
+
  escape fix symbol ([description](#5af6e59e-15))
 
  Initial commit
-
 ### Descriptions
 ##### 2a422db9
 Allows update commits to be detected by the system.
@@ -87,6 +91,8 @@ This is what generates the changelogs
 Nothing much yet in here. TODO add more to Readme
 ##### 03a42bd4
 Allows people using IDEs based on the Intellij platform to have everything set up
+##### 8b8ab47f
+This will mean that the first commit will be on a different line to the previous message, and it does not matter for the last commit as it has a header after.
 ##### 3f118290
 So that it doesn't give away TRADE SECRETS 🤐
 ##### e2893c62

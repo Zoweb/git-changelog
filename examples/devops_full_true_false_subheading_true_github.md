@@ -1,24 +1,25 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 20
+**commit count**: 22
 
 **additions**: 10
 
 **removals**: 0
 
-**changes**: 1
+**changes**: 2
 
 **fixes**: 6
 
 **merges**: 0
 
-**updates**: 1
+**updates**: 2
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
+
 *addition:* [`5f87b3b1`](commit/5f87b3b1d60db96cd9f3f838f0a161e6a2358753?refName=refs/heads/master): add fixes to statistics
 
 *addition:* [`2a422db9`](commit/2a422db99561210e0d43ff19071dd35b68bc68bd?refName=refs/heads/master): add update commit support ([description](#2a422db9))
@@ -39,6 +40,8 @@
 
 *addition:* [`03a42bd4`](commit/03a42bd4d1609bf91474560347b54bfec824983b?refName=refs/heads/master): add intellij files ([description](#03a42bd4))
 
+*change:* [`8b8ab47f`](commit/8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12?refName=refs/heads/master): change text newline to be before each commit ([description](#8b8ab47f))
+
 *change:* [`3f118290`](commit/3f11829000fba42a4476ca59563ee0460689c958?refName=refs/heads/master): change test to use current repository ([description](#3f118290))
 
 *fix:* [`d2ed1a36`](commit/d2ed1a36ef1b094c6b94758ab169af21970ac315?refName=refs/heads/master): fix displaying `***` by using html escape char
@@ -53,12 +56,13 @@
 
 *fix:* [`0db93166`](commit/0db931663b07b7866c00ba3d7be7c349891cdc78?refName=refs/heads/master): fix code block not showing everything ([description](#0db93166))
 
+*update:* [`4b6f2fd8`](commit/4b6f2fd8257c01b18ea00ac4888f4fb59e9c88c8?refName=refs/heads/master): update examples
+
 *update:* [`2f3d4e9f`](commit/2f3d4e9f3094680900efc613b322563e7142a1d5?refName=refs/heads/master): update examples
 
 *other:* [`5af6e59e`](commit/5af6e59e002a29ae7bc48cb326e8b5c1d083f67d?refName=refs/heads/master): escape fix symbol ([description](#5af6e59e))
 
 *other:* [`292e1c61`](commit/292e1c610efa3461ab617cf86dcc537c5e9cbc5a?refName=refs/heads/master): Initial commit
-
 ### Descriptions
 ##### [2a422db9](commit/2a422db99561210e0d43ff19071dd35b68bc68bd?refName=refs/heads/master)
 Allows update commits to be detected by the system.
@@ -78,6 +82,8 @@ This is what generates the changelogs
 Nothing much yet in here. TODO add more to Readme
 ##### [03a42bd4](commit/03a42bd4d1609bf91474560347b54bfec824983b?refName=refs/heads/master)
 Allows people using IDEs based on the Intellij platform to have everything set up
+##### [8b8ab47f](commit/8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12?refName=refs/heads/master)
+This will mean that the first commit will be on a different line to the previous message, and it does not matter for the last commit as it has a header after.
 ##### [3f118290](commit/3f11829000fba42a4476ca59563ee0460689c958?refName=refs/heads/master)
 So that it doesn't give away TRADE SECRETS 🤐
 ##### [e2893c62](commit/e2893c627fd66e2ede2eac395812e95162ae0d15?refName=refs/heads/master)

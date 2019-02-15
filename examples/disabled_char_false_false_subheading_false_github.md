@@ -1,64 +1,68 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 20
+**commit count**: 22
 
 **additions**: 10
 
 **removals**: 0
 
-**changes**: 1
+**changes**: 2
 
 **fixes**: 6
 
 **merges**: 0
 
-**updates**: 1
+**updates**: 2
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
+
 *a:* add fixes to statistics
 
-*a:* add update commit support ([description](#add-update-commit-support-24))
+*a:* add update commit support ([description](#add-update-commit-support-23))
 
-*a:* add fix commit support ([description](#add-fix-commit-support-24))
+*a:* add fix commit support ([description](#add-fix-commit-support-23))
 
-*a:* add more info to examples readme ([description](#add-more-info-to-examples-readme-24))
+*a:* add more info to examples readme ([description](#add-more-info-to-examples-readme-23))
 
-*a:* add codealike file ([description](#add-codealike-file-24))
+*a:* add codealike file ([description](#add-codealike-file-23))
 
-*a:* add test/example generator ([description](#add-testexample-generator-24))
+*a:* add test/example generator ([description](#add-testexample-generator-23))
 
-*a:* add package.json ([description](#add-packagejson-24))
+*a:* add package.json ([description](#add-packagejson-23))
 
-*a:* add generator ([description](#add-generator-24))
+*a:* add generator ([description](#add-generator-23))
 
-*a:* add basic readme ([description](#add-basic-readme-24))
+*a:* add basic readme ([description](#add-basic-readme-23))
 
-*a:* add intellij files ([description](#add-intellij-files-24))
+*a:* add intellij files ([description](#add-intellij-files-23))
 
-*c:* change test to use current repository ([description](#change-test-to-use-current-repository-24))
+*c:* change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-23))
+
+*c:* change test to use current repository ([description](#change-test-to-use-current-repository-23))
 
 *f:* fix displaying `***` by using html escape char
 
-*f:* fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-24))
+*f:* fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-23))
 
 *f:* fix wording of update statistics
 
-*f:* fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-24))
+*f:* fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-23))
 
 *f:* fix using `mergeCommits` instead of `fixCommits`
 
-*f:* fix code block not showing everything ([description](#fix-code-block-not-showing-everything-24))
+*f:* fix code block not showing everything ([description](#fix-code-block-not-showing-everything-23))
 
 *u:* update examples
 
-*o:* escape fix symbol ([description](#escape-fix-symbol-24))
+*u:* update examples
+
+*o:* escape fix symbol ([description](#escape-fix-symbol-23))
 
 *o:* Initial commit
-
 ### Descriptions
 ##### add update commit support
 Allows update commits to be detected by the system.
@@ -78,6 +82,8 @@ This is what generates the changelogs
 Nothing much yet in here. TODO add more to Readme
 ##### add intellij files
 Allows people using IDEs based on the Intellij platform to have everything set up
+##### change text newline to be before each commit
+This will mean that the first commit will be on a different line to the previous message, and it does not matter for the last commit as it has a header after.
 ##### change test to use current repository
 So that it doesn't give away TRADE SECRETS 🤐
 ##### fix using incorrect variable for update commits

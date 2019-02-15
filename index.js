@@ -209,10 +209,10 @@ async function generateChangelog(commits, cmd) {
         const commitIdMarkdown = commitIdLink === false ? `\`${commitId}\`` : `[\`${commitId}\`](${commitIdLink})`;
 
         return {
-            text: `${cmd.typeMode !== "heading" ? `*${typeIdentifier}*` : ""}${cmd.showId ? ` ${commitIdMarkdown}:` : ""} \
+            text: `\n${cmd.typeMode !== "heading" ? `*${typeIdentifier}*` : ""}${cmd.showId ? ` ${commitIdMarkdown}:` : ""} \
 ${it.commit.summary}\
 ${cmd.description === "subheading" && it.commit.description ? ` ([description](#${headingLinkGenerators[cmd.headingLinkGenerator](cmd.subheadingUseId ? cmd.longId ? it.commit.sha : it.commit.shaShort : it.commit.summary)}))` : ""}\
-${cmd.description === "inline" && it.commit.description ? "\n`    " + it.commit.description.replace(/\n/g, "\n    ") + "`" : ""}\n`
+${cmd.description === "inline" && it.commit.description ? "\n`    " + it.commit.description.replace(/\n/g, "\n    ") + "`" : ""}`
 ,
             commit: it
         }

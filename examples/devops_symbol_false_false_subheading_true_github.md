@@ -1,24 +1,25 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 20
+**commit count**: 22
 
 **additions**: 10
 
 **removals**: 0
 
-**changes**: 1
+**changes**: 2
 
 **fixes**: 6
 
 **merges**: 0
 
-**updates**: 1
+**updates**: 2
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
+
 *+* add fixes to statistics
 
 *+* add update commit support ([description](#2a422db9-5))
@@ -39,6 +40,8 @@
 
 *+* add intellij files ([description](#03a42bd4-5))
 
+*&ast;* change text newline to be before each commit ([description](#8b8ab47f-5))
+
 *&ast;* change test to use current repository ([description](#3f118290-5))
 
 *&ast;* fix displaying `***` by using html escape char
@@ -55,10 +58,11 @@
 
 *^* update examples
 
+*^* update examples
+
 *?* escape fix symbol ([description](#5af6e59e-5))
 
 *?* Initial commit
-
 ### Descriptions
 ##### [2a422db9](commit/2a422db99561210e0d43ff19071dd35b68bc68bd?refName=refs/heads/master)
 Allows update commits to be detected by the system.
@@ -78,6 +82,8 @@ This is what generates the changelogs
 Nothing much yet in here. TODO add more to Readme
 ##### [03a42bd4](commit/03a42bd4d1609bf91474560347b54bfec824983b?refName=refs/heads/master)
 Allows people using IDEs based on the Intellij platform to have everything set up
+##### [8b8ab47f](commit/8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12?refName=refs/heads/master)
+This will mean that the first commit will be on a different line to the previous message, and it does not matter for the last commit as it has a header after.
 ##### [3f118290](commit/3f11829000fba42a4476ca59563ee0460689c958?refName=refs/heads/master)
 So that it doesn't give away TRADE SECRETS 🤐
 ##### [e2893c62](commit/e2893c627fd66e2ede2eac395812e95162ae0d15?refName=refs/heads/master)
