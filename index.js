@@ -182,7 +182,17 @@ async function generateChangelog(commits, cmd) {
         commit: it
     })));
 
-    const otherCommits = getCommitsNotStartingWith(["add", "remove", "change", "merge", "fix"], commits);
+    const updateCommits = getCommitsStartingWith("update", commits);
+    commitsList.push(...mergeCommits.map(it => ({
+        type: {
+            full: "update",
+            char: "u",
+            symbol: "^"
+        },
+        commit: it
+    })));
+
+    const otherCommits = getCommitsNotStartingWith(["add", "remove", "change", "merge", "fix", "update"], commits);
     commitsList.push(...otherCommits.map(it => ({
         type: {
             full: "other",
@@ -215,6 +225,7 @@ ${cmd.description === "inline" && it.commit.description ? "\n`    " + it.commit.
         .append("**removals**: ").appendLine(removeCommits.length.toString()).appendLine()
         .append("**changes**: ").appendLine(changeCommits.length.toString()).appendLine()
         .append("**merges**: ").appendLine(mergeCommits.length.toString()).appendLine()
+        .append("**update**: ").appendLine(mergeCommits.length.toString()).appendLine()
         .append("**other commits**: ").appendLine(otherCommits.length.toString()).appendLine()
         .appendLine("#### Log")
         .appendLine("<small>(note: any additions may have been removed, and any removals may have been added back in.)</small>");
@@ -230,6 +241,8 @@ ${cmd.description === "inline" && it.commit.description ? "\n`    " + it.commit.
             .appendLine(message.filter(it => it.commit.type.full === "fix").map(it => it.text).join("\n"))
             .appendLine("##### Merges")
             .appendLine(message.filter(it => it.commit.type.full === "merge").map(it => it.text).join("\n"))
+            .appendLine("##### Updates")
+            .appendLine(message.filter(it => it.commit.type.full === "update").map(it => it.text).join("\n"))
             .appendLine("##### Other")
             .appendLine(message.filter(it => it.commit.type.full === "other").map(it => it.text).join("\n"));
     } else {
