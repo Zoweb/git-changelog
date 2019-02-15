@@ -163,7 +163,7 @@ async function generateChangelog(commits, cmd) {
     })));
 
     const fixCommits = getCommitsStartingWith("fix", commits);
-    commitsList.push(...mergeCommits.map(it => ({
+    commitsList.push(...fixCommits.map(it => ({
         type: {
             full: "fix",
             char: "f",
