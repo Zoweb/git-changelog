@@ -1,25 +1,26 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 20
+**commit count**: 22
 
 **additions**: 10
 
 **removals**: 0
 
-**changes**: 1
+**changes**: 2
 
 **fixes**: 6
 
 **merges**: 0
 
-**updates**: 1
+**updates**: 2
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
 ##### Additions
+
  `5f87b3b1`: add fixes to statistics
 
  `2a422db9`: add update commit support
@@ -39,13 +40,15 @@
  `f79ea73c`: add basic readme
 
  `03a42bd4`: add intellij files
-
 ##### Removals
 
 ##### Changes
- `3f118290`: change test to use current repository
 
+ `8b8ab47f`: change text newline to be before each commit
+
+ `3f118290`: change test to use current repository
 ##### Fixes
+
  `d2ed1a36`: fix displaying `***` by using html escape char
 
  `e2893c62`: fix using incorrect variable for update commits
@@ -57,14 +60,15 @@
  `388ed8e0`: fix using `mergeCommits` instead of `fixCommits`
 
  `0db93166`: fix code block not showing everything
-
 ##### Merges
 
 ##### Updates
- `2f3d4e9f`: update examples
 
+ `4b6f2fd8`: update examples
+
+ `2f3d4e9f`: update examples
 ##### Other
+
  `5af6e59e`: escape fix symbol
 
  `292e1c61`: Initial commit
-

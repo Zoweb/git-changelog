@@ -1,25 +1,26 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 20
+**commit count**: 22
 
 **additions**: 10
 
 **removals**: 0
 
-**changes**: 1
+**changes**: 2
 
 **fixes**: 6
 
 **merges**: 0
 
-**updates**: 1
+**updates**: 2
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
 ##### Additions
+
  add fixes to statistics
 
  add update commit support ([description](#2a422db99561210e0d43ff19071dd35b68bc68bd-15))
@@ -39,13 +40,15 @@
  add basic readme ([description](#f79ea73cdc47fd8cbca8d9013bbc3942c4119f12-15))
 
  add intellij files ([description](#03a42bd4d1609bf91474560347b54bfec824983b-15))
-
 ##### Removals
 
 ##### Changes
- change test to use current repository ([description](#3f11829000fba42a4476ca59563ee0460689c958-15))
 
+ change text newline to be before each commit ([description](#8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12-15))
+
+ change test to use current repository ([description](#3f11829000fba42a4476ca59563ee0460689c958-15))
 ##### Fixes
+
  fix displaying `***` by using html escape char
 
  fix using incorrect variable for update commits ([description](#e2893c627fd66e2ede2eac395812e95162ae0d15-15))
@@ -57,17 +60,18 @@
  fix using `mergeCommits` instead of `fixCommits`
 
  fix code block not showing everything ([description](#0db931663b07b7866c00ba3d7be7c349891cdc78-15))
-
 ##### Merges
 
 ##### Updates
+
  update examples
 
+ update examples
 ##### Other
+
  escape fix symbol ([description](#5af6e59e002a29ae7bc48cb326e8b5c1d083f67d-15))
 
  Initial commit
-
 ### Descriptions
 ##### 2a422db99561210e0d43ff19071dd35b68bc68bd
 Allows update commits to be detected by the system.
@@ -87,6 +91,8 @@ This is what generates the changelogs
 Nothing much yet in here. TODO add more to Readme
 ##### 03a42bd4d1609bf91474560347b54bfec824983b
 Allows people using IDEs based on the Intellij platform to have everything set up
+##### 8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12
+This will mean that the first commit will be on a different line to the previous message, and it does not matter for the last commit as it has a header after.
 ##### 3f11829000fba42a4476ca59563ee0460689c958
 So that it doesn't give away TRADE SECRETS 🤐
 ##### e2893c627fd66e2ede2eac395812e95162ae0d15
