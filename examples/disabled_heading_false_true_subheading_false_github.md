@@ -1,25 +1,26 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 20
+**commit count**: 22
 
 **additions**: 10
 
 **removals**: 0
 
-**changes**: 1
+**changes**: 2
 
 **fixes**: 6
 
 **merges**: 0
 
-**updates**: 1
+**updates**: 2
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
 ##### Additions
+
  add fixes to statistics
 
  add update commit support ([description](#add-update-commit-support-30))
@@ -39,13 +40,15 @@
  add basic readme ([description](#add-basic-readme-30))
 
  add intellij files ([description](#add-intellij-files-30))
-
 ##### Removals
 
 ##### Changes
- change test to use current repository ([description](#change-test-to-use-current-repository-30))
 
+ change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-30))
+
+ change test to use current repository ([description](#change-test-to-use-current-repository-30))
 ##### Fixes
+
  fix displaying `***` by using html escape char
 
  fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-30))
@@ -57,17 +60,18 @@
  fix using `mergeCommits` instead of `fixCommits`
 
  fix code block not showing everything ([description](#fix-code-block-not-showing-everything-30))
-
 ##### Merges
 
 ##### Updates
+
  update examples
 
+ update examples
 ##### Other
+
  escape fix symbol ([description](#escape-fix-symbol-30))
 
  Initial commit
-
 ### Descriptions
 ##### add update commit support
 Allows update commits to be detected by the system.
@@ -87,6 +91,8 @@ This is what generates the changelogs
 Nothing much yet in here. TODO add more to Readme
 ##### add intellij files
 Allows people using IDEs based on the Intellij platform to have everything set up
+##### change text newline to be before each commit
+This will mean that the first commit will be on a different line to the previous message, and it does not matter for the last commit as it has a header after.
 ##### change test to use current repository
 So that it doesn't give away TRADE SECRETS 🤐
 ##### fix using incorrect variable for update commits

@@ -1,24 +1,25 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 20
+**commit count**: 22
 
 **additions**: 10
 
 **removals**: 0
 
-**changes**: 1
+**changes**: 2
 
 **fixes**: 6
 
 **merges**: 0
 
-**updates**: 1
+**updates**: 2
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
+
 *+* `5f87b3b1d60db96cd9f3f838f0a161e6a2358753`: add fixes to statistics
 
 *+* `2a422db99561210e0d43ff19071dd35b68bc68bd`: add update commit support
@@ -39,6 +40,8 @@
 
 *+* `03a42bd4d1609bf91474560347b54bfec824983b`: add intellij files
 
+*&ast;* `8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12`: change text newline to be before each commit
+
 *&ast;* `3f11829000fba42a4476ca59563ee0460689c958`: change test to use current repository
 
 *&ast;* `d2ed1a36ef1b094c6b94758ab169af21970ac315`: fix displaying `***` by using html escape char
@@ -53,9 +56,10 @@
 
 *&ast;* `0db931663b07b7866c00ba3d7be7c349891cdc78`: fix code block not showing everything
 
+*^* `4b6f2fd8257c01b18ea00ac4888f4fb59e9c88c8`: update examples
+
 *^* `2f3d4e9f3094680900efc613b322563e7142a1d5`: update examples
 
 *?* `5af6e59e002a29ae7bc48cb326e8b5c1d083f67d`: escape fix symbol
 
 *?* `292e1c610efa3461ab617cf86dcc537c5e9cbc5a`: Initial commit
-
