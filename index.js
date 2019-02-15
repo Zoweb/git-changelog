@@ -225,7 +225,7 @@ ${cmd.description === "inline" && it.commit.description ? "\n`    " + it.commit.
         .append("**removals**: ").appendLine(removeCommits.length.toString()).appendLine()
         .append("**changes**: ").appendLine(changeCommits.length.toString()).appendLine()
         .append("**merges**: ").appendLine(mergeCommits.length.toString()).appendLine()
-        .append("**update**: ").appendLine(mergeCommits.length.toString()).appendLine()
+        .append("**update**: ").appendLine(updateCommits.length.toString()).appendLine()
         .append("**other commits**: ").appendLine(otherCommits.length.toString()).appendLine()
         .appendLine("#### Log")
         .appendLine("<small>(note: any additions may have been removed, and any removals may have been added back in.)</small>");
