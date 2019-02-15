@@ -183,7 +183,7 @@ async function generateChangelog(commits, cmd) {
     })));
 
     const updateCommits = getCommitsStartingWith("update", commits);
-    commitsList.push(...mergeCommits.map(it => ({
+    commitsList.push(...updateCommits.map(it => ({
         type: {
             full: "update",
             char: "u",
