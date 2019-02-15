@@ -1,9 +1,9 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 9
+**commit count**: 12
 
-**additions**: 7
+**additions**: 8
 
 **removals**: 0
 
@@ -15,7 +15,9 @@
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
-*a:* `5f0c3db6`: add more info to examples readme
+*a:* `223c6ecd`: add fix commit support
+
+*a:* `31b21318`: add more info to examples readme
 
 *a:* `eeb75f31`: add codealike file
 
@@ -30,6 +32,10 @@
 *a:* `03a42bd4`: add intellij files
 
 *c:* `3f118290`: change test to use current repository
+
+*f:* `388ed8e0`: fix using `mergeCommits` instead of `fixCommits`
+
+*f:* `0db93166`: fix code block not showing everything
 
 *o:* `292e1c61`: Initial commit
 

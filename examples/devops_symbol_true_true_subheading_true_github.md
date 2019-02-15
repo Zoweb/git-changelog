@@ -1,9 +1,9 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 9
+**commit count**: 12
 
-**additions**: 7
+**additions**: 8
 
 **removals**: 0
 
@@ -15,7 +15,9 @@
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
-*+* [`5f0c3db6313317e93220011c4c26a55cfa750ae5`](commit/5f0c3db6313317e93220011c4c26a55cfa750ae5?refName=refs/heads/master): add more info to examples readme ([description](#5f0c3db6313317e93220011c4c26a55cfa750ae5-4))
+*+* [`223c6ecdec0cde19c0ec88e83b29aed6904d2e08`](commit/223c6ecdec0cde19c0ec88e83b29aed6904d2e08?refName=refs/heads/master): add fix commit support ([description](#223c6ecdec0cde19c0ec88e83b29aed6904d2e08-4))
+
+*+* [`31b2131866556049ae926d4abaf2b492a1e2af28`](commit/31b2131866556049ae926d4abaf2b492a1e2af28?refName=refs/heads/master): add more info to examples readme ([description](#31b2131866556049ae926d4abaf2b492a1e2af28-4))
 
 *+* [`eeb75f31aa45a630b30aff066ffe2f2d81ab4b0a`](commit/eeb75f31aa45a630b30aff066ffe2f2d81ab4b0a?refName=refs/heads/master): add codealike file ([description](#eeb75f31aa45a630b30aff066ffe2f2d81ab4b0a-4))
 
@@ -31,10 +33,16 @@
 
 *\** [`3f11829000fba42a4476ca59563ee0460689c958`](commit/3f11829000fba42a4476ca59563ee0460689c958?refName=refs/heads/master): change test to use current repository ([description](#3f11829000fba42a4476ca59563ee0460689c958-4))
 
+*** [`388ed8e0e084e06dd88e50573051ee2131c95923`](commit/388ed8e0e084e06dd88e50573051ee2131c95923?refName=refs/heads/master): fix using `mergeCommits` instead of `fixCommits`
+
+*** [`0db931663b07b7866c00ba3d7be7c349891cdc78`](commit/0db931663b07b7866c00ba3d7be7c349891cdc78?refName=refs/heads/master): fix code block not showing everything ([description](#0db931663b07b7866c00ba3d7be7c349891cdc78-4))
+
 *?* [`292e1c610efa3461ab617cf86dcc537c5e9cbc5a`](commit/292e1c610efa3461ab617cf86dcc537c5e9cbc5a?refName=refs/heads/master): Initial commit
 
 ### Descriptions
-##### [5f0c3db6313317e93220011c4c26a55cfa750ae5](commit/5f0c3db6313317e93220011c4c26a55cfa750ae5?refName=refs/heads/master)
+##### [223c6ecdec0cde19c0ec88e83b29aed6904d2e08](commit/223c6ecdec0cde19c0ec88e83b29aed6904d2e08?refName=refs/heads/master)
+Allows commits that are fixes to be detected.
+##### [31b2131866556049ae926d4abaf2b492a1e2af28](commit/31b2131866556049ae926d4abaf2b492a1e2af28?refName=refs/heads/master)
 So that it is easier to browse the folder's 100s of files.
 ##### [eeb75f31aa45a630b30aff066ffe2f2d81ab4b0a](commit/eeb75f31aa45a630b30aff066ffe2f2d81ab4b0a?refName=refs/heads/master)
 So that people who work on this are working with the same project.
@@ -50,3 +58,5 @@ Nothing much yet in here. TODO add more to Readme
 Allows people using IDEs based on the Intellij platform to have everything set up
 ##### [3f11829000fba42a4476ca59563ee0460689c958](commit/3f11829000fba42a4476ca59563ee0460689c958?refName=refs/heads/master)
 So that it doesn't give away TRADE SECRETS 🤐
+##### [0db931663b07b7866c00ba3d7be7c349891cdc78](commit/0db931663b07b7866c00ba3d7be7c349891cdc78?refName=refs/heads/master)
+It wasn't working because one of the values was on the same line as the code block opening.

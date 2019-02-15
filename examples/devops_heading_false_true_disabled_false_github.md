@@ -1,9 +1,9 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 9
+**commit count**: 12
 
-**additions**: 7
+**additions**: 8
 
 **removals**: 0
 
@@ -16,6 +16,8 @@
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
 ##### Additions
+ add fix commit support
+
  add more info to examples readme
 
  add codealike file
@@ -34,6 +36,11 @@
 
 ##### Changes
  change test to use current repository
+
+##### Fixes
+ fix using `mergeCommits` instead of `fixCommits`
+
+ fix code block not showing everything
 
 ##### Merges
 

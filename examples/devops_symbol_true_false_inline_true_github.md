@@ -1,9 +1,9 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 9
+**commit count**: 12
 
-**additions**: 7
+**additions**: 8
 
 **removals**: 0
 
@@ -15,7 +15,10 @@
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
-*+* [`5f0c3db6`](commit/5f0c3db6313317e93220011c4c26a55cfa750ae5?refName=refs/heads/master): add more info to examples readme
+*+* [`223c6ecd`](commit/223c6ecdec0cde19c0ec88e83b29aed6904d2e08?refName=refs/heads/master): add fix commit support
+`    Allows commits that are fixes to be detected.`
+
+*+* [`31b21318`](commit/31b2131866556049ae926d4abaf2b492a1e2af28?refName=refs/heads/master): add more info to examples readme
 `    So that it is easier to browse the folder's 100s of files.`
 
 *+* [`eeb75f31`](commit/eeb75f31aa45a630b30aff066ffe2f2d81ab4b0a?refName=refs/heads/master): add codealike file
@@ -38,6 +41,11 @@
 
 *\** [`3f118290`](commit/3f11829000fba42a4476ca59563ee0460689c958?refName=refs/heads/master): change test to use current repository
 `    So that it doesn't give away TRADE SECRETS 🤐`
+
+*** [`388ed8e0`](commit/388ed8e0e084e06dd88e50573051ee2131c95923?refName=refs/heads/master): fix using `mergeCommits` instead of `fixCommits`
+
+*** [`0db93166`](commit/0db931663b07b7866c00ba3d7be7c349891cdc78?refName=refs/heads/master): fix code block not showing everything
+`    It wasn't working because one of the values was on the same line as the code block opening.`
 
 *?* [`292e1c61`](commit/292e1c610efa3461ab617cf86dcc537c5e9cbc5a?refName=refs/heads/master): Initial commit
 
