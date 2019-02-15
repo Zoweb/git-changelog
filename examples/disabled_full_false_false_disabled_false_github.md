@@ -1,20 +1,28 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 12
+**commit count**: 20
 
-**additions**: 8
+**additions**: 10
 
 **removals**: 0
 
 **changes**: 1
 
+**fixes**: 6
+
 **merges**: 0
 
-**other commits**: 1
+**updates**: 1
+
+**other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
+*addition:* add fixes to statistics
+
+*addition:* add update commit support
+
 *addition:* add fix commit support
 
 *addition:* add more info to examples readme
@@ -33,9 +41,21 @@
 
 *change:* change test to use current repository
 
+*fix:* fix displaying `***` by using html escape char
+
+*fix:* fix using incorrect variable for update commits
+
+*fix:* fix wording of update statistics
+
+*fix:* fix using wrong variable for update statistics
+
 *fix:* fix using `mergeCommits` instead of `fixCommits`
 
 *fix:* fix code block not showing everything
+
+*update:* update examples
+
+*other:* escape fix symbol
 
 *other:* Initial commit
 

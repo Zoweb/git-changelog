@@ -1,21 +1,30 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 12
+**commit count**: 20
 
-**additions**: 8
+**additions**: 10
 
 **removals**: 0
 
 **changes**: 1
 
+**fixes**: 6
+
 **merges**: 0
 
-**other commits**: 1
+**updates**: 1
+
+**other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
 ##### Additions
+ [`5f87b3b1d60db96cd9f3f838f0a161e6a2358753`](commit/5f87b3b1d60db96cd9f3f838f0a161e6a2358753?refName=refs/heads/master): add fixes to statistics
+
+ [`2a422db99561210e0d43ff19071dd35b68bc68bd`](commit/2a422db99561210e0d43ff19071dd35b68bc68bd?refName=refs/heads/master): add update commit support
+`    Allows update commits to be detected by the system.`
+
  [`223c6ecdec0cde19c0ec88e83b29aed6904d2e08`](commit/223c6ecdec0cde19c0ec88e83b29aed6904d2e08?refName=refs/heads/master): add fix commit support
 `    Allows commits that are fixes to be detected.`
 
@@ -47,6 +56,16 @@
 `    So that it doesn't give away TRADE SECRETS 🤐`
 
 ##### Fixes
+ [`d2ed1a36ef1b094c6b94758ab169af21970ac315`](commit/d2ed1a36ef1b094c6b94758ab169af21970ac315?refName=refs/heads/master): fix displaying `***` by using html escape char
+
+ [`e2893c627fd66e2ede2eac395812e95162ae0d15`](commit/e2893c627fd66e2ede2eac395812e95162ae0d15?refName=refs/heads/master): fix using incorrect variable for update commits
+`    Was `mergeCommits`, should have been `updateCommits``
+
+ [`3270dec26daaff7b983109c1e29909f6ccd4c29a`](commit/3270dec26daaff7b983109c1e29909f6ccd4c29a?refName=refs/heads/master): fix wording of update statistics
+
+ [`a05e767311e7147fa2647d3e848fc880ea733582`](commit/a05e767311e7147fa2647d3e848fc880ea733582?refName=refs/heads/master): fix using wrong variable for update statistics
+`    Should have been `updateCommits`, was `mergeCommits``
+
  [`388ed8e0e084e06dd88e50573051ee2131c95923`](commit/388ed8e0e084e06dd88e50573051ee2131c95923?refName=refs/heads/master): fix using `mergeCommits` instead of `fixCommits`
 
  [`0db931663b07b7866c00ba3d7be7c349891cdc78`](commit/0db931663b07b7866c00ba3d7be7c349891cdc78?refName=refs/heads/master): fix code block not showing everything
@@ -54,6 +73,12 @@
 
 ##### Merges
 
+##### Updates
+ [`2f3d4e9f3094680900efc613b322563e7142a1d5`](commit/2f3d4e9f3094680900efc613b322563e7142a1d5?refName=refs/heads/master): update examples
+
 ##### Other
+ [`5af6e59e002a29ae7bc48cb326e8b5c1d083f67d`](commit/5af6e59e002a29ae7bc48cb326e8b5c1d083f67d?refName=refs/heads/master): escape fix symbol
+`    Otherwise it would display `***`, we want just `*` in italics.`
+
  [`292e1c610efa3461ab617cf86dcc537c5e9cbc5a`](commit/292e1c610efa3461ab617cf86dcc537c5e9cbc5a?refName=refs/heads/master): Initial commit
 

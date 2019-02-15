@@ -1,21 +1,29 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 12
+**commit count**: 20
 
-**additions**: 8
+**additions**: 10
 
 **removals**: 0
 
 **changes**: 1
 
+**fixes**: 6
+
 **merges**: 0
 
-**other commits**: 1
+**updates**: 1
+
+**other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
 ##### Additions
+ add fixes to statistics
+
+ add update commit support ([description](#2a422db9-15))
+
  add fix commit support ([description](#223c6ecd-15))
 
  add more info to examples readme ([description](#31b21318-15))
@@ -38,16 +46,31 @@
  change test to use current repository ([description](#3f118290-15))
 
 ##### Fixes
+ fix displaying `***` by using html escape char
+
+ fix using incorrect variable for update commits ([description](#e2893c62-15))
+
+ fix wording of update statistics
+
+ fix using wrong variable for update statistics ([description](#a05e7673-15))
+
  fix using `mergeCommits` instead of `fixCommits`
 
  fix code block not showing everything ([description](#0db93166-15))
 
 ##### Merges
 
+##### Updates
+ update examples
+
 ##### Other
+ escape fix symbol ([description](#5af6e59e-15))
+
  Initial commit
 
 ### Descriptions
+##### 2a422db9
+Allows update commits to be detected by the system.
 ##### 223c6ecd
 Allows commits that are fixes to be detected.
 ##### 31b21318
@@ -66,5 +89,11 @@ Nothing much yet in here. TODO add more to Readme
 Allows people using IDEs based on the Intellij platform to have everything set up
 ##### 3f118290
 So that it doesn't give away TRADE SECRETS 🤐
+##### e2893c62
+Was `mergeCommits`, should have been `updateCommits`
+##### a05e7673
+Should have been `updateCommits`, was `mergeCommits`
 ##### 0db93166
 It wasn't working because one of the values was on the same line as the code block opening.
+##### 5af6e59e
+Otherwise it would display `***`, we want just `*` in italics.

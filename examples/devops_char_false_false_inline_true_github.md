@@ -1,20 +1,29 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 12
+**commit count**: 20
 
-**additions**: 8
+**additions**: 10
 
 **removals**: 0
 
 **changes**: 1
 
+**fixes**: 6
+
 **merges**: 0
 
-**other commits**: 1
+**updates**: 1
+
+**other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
+*a:* add fixes to statistics
+
+*a:* add update commit support
+`    Allows update commits to be detected by the system.`
+
 *a:* add fix commit support
 `    Allows commits that are fixes to be detected.`
 
@@ -42,10 +51,25 @@
 *c:* change test to use current repository
 `    So that it doesn't give away TRADE SECRETS 🤐`
 
+*f:* fix displaying `***` by using html escape char
+
+*f:* fix using incorrect variable for update commits
+`    Was `mergeCommits`, should have been `updateCommits``
+
+*f:* fix wording of update statistics
+
+*f:* fix using wrong variable for update statistics
+`    Should have been `updateCommits`, was `mergeCommits``
+
 *f:* fix using `mergeCommits` instead of `fixCommits`
 
 *f:* fix code block not showing everything
 `    It wasn't working because one of the values was on the same line as the code block opening.`
+
+*u:* update examples
+
+*o:* escape fix symbol
+`    Otherwise it would display `***`, we want just `*` in italics.`
 
 *o:* Initial commit
 

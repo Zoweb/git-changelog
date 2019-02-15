@@ -1,20 +1,28 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 12
+**commit count**: 20
 
-**additions**: 8
+**additions**: 10
 
 **removals**: 0
 
 **changes**: 1
 
+**fixes**: 6
+
 **merges**: 0
 
-**other commits**: 1
+**updates**: 1
+
+**other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
+*+* add fixes to statistics
+
+*+* add update commit support ([description](#add-update-commit-support-10))
+
 *+* add fix commit support ([description](#add-fix-commit-support-10))
 
 *+* add more info to examples readme ([description](#add-more-info-to-examples-readme-10))
@@ -31,15 +39,29 @@
 
 *+* add intellij files ([description](#add-intellij-files-10))
 
-*\** change test to use current repository ([description](#change-test-to-use-current-repository-10))
+*&ast;* change test to use current repository ([description](#change-test-to-use-current-repository-10))
 
-*** fix using `mergeCommits` instead of `fixCommits`
+*&ast;* fix displaying `***` by using html escape char
 
-*** fix code block not showing everything ([description](#fix-code-block-not-showing-everything-10))
+*&ast;* fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-10))
+
+*&ast;* fix wording of update statistics
+
+*&ast;* fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-10))
+
+*&ast;* fix using `mergeCommits` instead of `fixCommits`
+
+*&ast;* fix code block not showing everything ([description](#fix-code-block-not-showing-everything-10))
+
+*^* update examples
+
+*?* escape fix symbol ([description](#escape-fix-symbol-10))
 
 *?* Initial commit
 
 ### Descriptions
+##### [add update commit support](commit/2a422db99561210e0d43ff19071dd35b68bc68bd?refName=refs/heads/master)
+Allows update commits to be detected by the system.
 ##### [add fix commit support](commit/223c6ecdec0cde19c0ec88e83b29aed6904d2e08?refName=refs/heads/master)
 Allows commits that are fixes to be detected.
 ##### [add more info to examples readme](commit/31b2131866556049ae926d4abaf2b492a1e2af28?refName=refs/heads/master)
@@ -58,5 +80,11 @@ Nothing much yet in here. TODO add more to Readme
 Allows people using IDEs based on the Intellij platform to have everything set up
 ##### [change test to use current repository](commit/3f11829000fba42a4476ca59563ee0460689c958?refName=refs/heads/master)
 So that it doesn't give away TRADE SECRETS 🤐
+##### [fix using incorrect variable for update commits](commit/e2893c627fd66e2ede2eac395812e95162ae0d15?refName=refs/heads/master)
+Was `mergeCommits`, should have been `updateCommits`
+##### [fix using wrong variable for update statistics](commit/a05e767311e7147fa2647d3e848fc880ea733582?refName=refs/heads/master)
+Should have been `updateCommits`, was `mergeCommits`
 ##### [fix code block not showing everything](commit/0db931663b07b7866c00ba3d7be7c349891cdc78?refName=refs/heads/master)
 It wasn't working because one of the values was on the same line as the code block opening.
+##### [escape fix symbol](commit/5af6e59e002a29ae7bc48cb326e8b5c1d083f67d?refName=refs/heads/master)
+Otherwise it would display `***`, we want just `*` in italics.
