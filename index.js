@@ -162,6 +162,16 @@ async function generateChangelog(commits, cmd) {
         commit: it
     })));
 
+    const fixCommits = getCommitsStartingWith("fix", commits);
+    commitsList.push(...mergeCommits.map(it => ({
+        type: {
+            full: "fix",
+            char: "f",
+            symbol: "*"
+        },
+        commit: it
+    })));
+
     const mergeCommits = getCommitsStartingWith("merge", commits);
     commitsList.push(...mergeCommits.map(it => ({
         type: {
@@ -172,7 +182,7 @@ async function generateChangelog(commits, cmd) {
         commit: it
     })));
 
-    const otherCommits = getCommitsNotStartingWith(["add", "remove", "change", "merge"], commits);
+    const otherCommits = getCommitsNotStartingWith(["add", "remove", "change", "merge", "fix"], commits);
     commitsList.push(...otherCommits.map(it => ({
         type: {
             full: "other",
@@ -216,6 +226,8 @@ ${cmd.description === "inline" && it.commit.description ? "\n`    " + it.commit.
             .appendLine(message.filter(it => it.commit.type.full === "removal").map(it => it.text).join("\n"))
             .appendLine("##### Changes")
             .appendLine(message.filter(it => it.commit.type.full === "change").map(it => it.text).join("\n"))
+            .appendLine("##### Fixes")
+            .appendLine(message.filter(it => it.commit.type.full === "fix").map(it => it.text).join("\n"))
             .appendLine("##### Merges")
             .appendLine(message.filter(it => it.commit.type.full === "merge").map(it => it.text).join("\n"))
             .appendLine("##### Other")
