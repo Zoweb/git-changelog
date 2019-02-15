@@ -157,7 +157,7 @@ async function generateChangelog(commits, cmd) {
         type: {
             full: "change",
             char: "c",
-            symbol: "\\*"
+            symbol: "&ast;"
         },
         commit: it
     })));
@@ -167,7 +167,7 @@ async function generateChangelog(commits, cmd) {
         type: {
             full: "fix",
             char: "f",
-            symbol: "\\*"
+            symbol: "&ast;"
         },
         commit: it
     })));
