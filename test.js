@@ -22,7 +22,7 @@ if (!fs.existsSync("examples")) {
         "Each file is the option names separated by an underscore. If there is a value 'true', it means that option" +
         " exists and has no value. If it is 'false', it means that option does not exist.\n\n" +
         "The order is in the following:\n" +
-        "```" +
+        "```\n" +
         "--commit-link-generator\n" +
         "--type-mode\n" +
         "--show-id\n" +
