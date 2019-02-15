@@ -3,7 +3,7 @@
 const fs = require("fs");
 const gitChangelog = require("./index");
 
-const repoPath = "/home/alduino/Documents/Virtual TRPG/Core/";
+const repoPath = ".";
 
 const options = Object.values({
     commitLinkGenerator: ["devops", "disabled"],
