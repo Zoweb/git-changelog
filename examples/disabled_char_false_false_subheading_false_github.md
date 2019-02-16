@@ -1,24 +1,32 @@
 # Changelog
-## 0.0.0 (2019/02/15)
+## 0.0.0 (2019/02/16)
 #### Statistics
-**commit count**: 25
+**commit count**: 32
 
-**additions**: 10
+**additions**: 14
 
 **removals**: 0
 
-**changes**: 2
+**changes**: 3
 
 **fixes**: 6
 
-**merges**: 2
+**merges**: 3
 
-**updates**: 3
+**updates**: 4
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
+
+*a:* add changelog
+
+*a:* add changelog generator ([description](#add-changelog-generator-23))
+
+*a:* add warning for using arguments
+
+*a:* add readme ([description](#add-readme-23))
 
 *a:* add fixes to statistics
 
@@ -40,6 +48,8 @@
 
 *a:* add intellij files ([description](#add-intellij-files-23))
 
+*c:* change inline description to use blockquote ([description](#change-inline-description-to-use-blockquote-23))
+
 *c:* change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-23))
 
 *c:* change test to use current repository ([description](#change-test-to-use-current-repository-23))
@@ -56,9 +66,13 @@
 
 *f:* fix code block not showing everything ([description](#fix-code-block-not-showing-everything-23))
 
-*m:* Merge branch 'hotfix/first-commit-on-same-line' into develop
+*m:* Merge branch 'feature/readme' into develop
 
 *m:* Merge branch 'hotfix/first-commit-on-same-line'
+
+*m:* Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+*u:* Update examples
 
 *u:* update examples
 
@@ -70,6 +84,10 @@
 
 *o:* Initial commit
 ### Descriptions
+##### add changelog generator
+It would be odd if this package didn't use itself!                    
+##### add readme
+To allow people to see what everything is about
 ##### add update commit support
 Allows update commits to be detected by the system.
 ##### add fix commit support
@@ -88,6 +106,8 @@ This is what generates the changelogs
 Nothing much yet in here. TODO add more to Readme
 ##### add intellij files
 Allows people using IDEs based on the Intellij platform to have everything set up
+##### change inline description to use blockquote
+This forces it to be on a newline, and also allows for more display options for any descriptions.
 ##### change text newline to be before each commit
 This will mean that the first commit will be on a different line to the previous message, and it does not matter for the last commit as it has a header after.
 ##### change test to use current repository

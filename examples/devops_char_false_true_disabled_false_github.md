@@ -1,24 +1,32 @@
 # Changelog
-## 0.0.0 (2019/02/15)
+## 0.0.0 (2019/02/16)
 #### Statistics
-**commit count**: 25
+**commit count**: 32
 
-**additions**: 10
+**additions**: 14
 
 **removals**: 0
 
-**changes**: 2
+**changes**: 3
 
 **fixes**: 6
 
-**merges**: 2
+**merges**: 3
 
-**updates**: 3
+**updates**: 4
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
+
+*a:* add changelog
+
+*a:* add changelog generator
+
+*a:* add warning for using arguments
+
+*a:* add readme
 
 *a:* add fixes to statistics
 
@@ -40,6 +48,8 @@
 
 *a:* add intellij files
 
+*c:* change inline description to use blockquote
+
 *c:* change text newline to be before each commit
 
 *c:* change test to use current repository
@@ -56,9 +66,13 @@
 
 *f:* fix code block not showing everything
 
-*m:* Merge branch 'hotfix/first-commit-on-same-line' into develop
+*m:* Merge branch 'feature/readme' into develop
 
 *m:* Merge branch 'hotfix/first-commit-on-same-line'
+
+*m:* Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+*u:* Update examples
 
 *u:* update examples
 

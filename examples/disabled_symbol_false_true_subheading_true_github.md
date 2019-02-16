@@ -1,75 +1,93 @@
 # Changelog
-## 0.0.0 (2019/02/15)
+## 0.0.0 (2019/02/16)
 #### Statistics
-**commit count**: 25
+**commit count**: 32
 
-**additions**: 10
+**additions**: 14
 
 **removals**: 0
 
-**changes**: 2
+**changes**: 3
 
 **fixes**: 6
 
-**merges**: 2
+**merges**: 3
 
-**updates**: 3
+**updates**: 4
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
 
+*+* add changelog
+
+*+* add changelog generator ([description](#c17b8bba3ca52bcae219be4302d703401d3730c4-13))
+
+*+* add warning for using arguments
+
+*+* add readme ([description](#f64c16e3cd10f7ef672d07e987b174fdff2cc824-13))
+
 *+* add fixes to statistics
 
-*+* add update commit support ([description](#2a422db99561210e0d43ff19071dd35b68bc68bd-12))
+*+* add update commit support ([description](#2a422db99561210e0d43ff19071dd35b68bc68bd-13))
 
-*+* add fix commit support ([description](#223c6ecdec0cde19c0ec88e83b29aed6904d2e08-12))
+*+* add fix commit support ([description](#223c6ecdec0cde19c0ec88e83b29aed6904d2e08-13))
 
-*+* add more info to examples readme ([description](#31b2131866556049ae926d4abaf2b492a1e2af28-12))
+*+* add more info to examples readme ([description](#31b2131866556049ae926d4abaf2b492a1e2af28-13))
 
-*+* add codealike file ([description](#eeb75f31aa45a630b30aff066ffe2f2d81ab4b0a-12))
+*+* add codealike file ([description](#eeb75f31aa45a630b30aff066ffe2f2d81ab4b0a-13))
 
-*+* add test/example generator ([description](#537ce93e1967e25c3a988f4ce92ec886e7d316eb-12))
+*+* add test/example generator ([description](#537ce93e1967e25c3a988f4ce92ec886e7d316eb-13))
 
-*+* add package.json ([description](#71e1d2830a151f4c95a9f5533c6bdc10fa28069e-12))
+*+* add package.json ([description](#71e1d2830a151f4c95a9f5533c6bdc10fa28069e-13))
 
-*+* add generator ([description](#c98dca5eac6d4f749be01bb619264628f470901d-12))
+*+* add generator ([description](#c98dca5eac6d4f749be01bb619264628f470901d-13))
 
-*+* add basic readme ([description](#f79ea73cdc47fd8cbca8d9013bbc3942c4119f12-12))
+*+* add basic readme ([description](#f79ea73cdc47fd8cbca8d9013bbc3942c4119f12-13))
 
-*+* add intellij files ([description](#03a42bd4d1609bf91474560347b54bfec824983b-12))
+*+* add intellij files ([description](#03a42bd4d1609bf91474560347b54bfec824983b-13))
 
-*&ast;* change text newline to be before each commit ([description](#8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12-12))
+*&ast;* change inline description to use blockquote ([description](#bf070051bdd9fda2101652b5d557c0b748822d02-13))
 
-*&ast;* change test to use current repository ([description](#3f11829000fba42a4476ca59563ee0460689c958-12))
+*&ast;* change text newline to be before each commit ([description](#8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12-13))
+
+*&ast;* change test to use current repository ([description](#3f11829000fba42a4476ca59563ee0460689c958-13))
 
 *&ast;* fix displaying `***` by using html escape char
 
-*&ast;* fix using incorrect variable for update commits ([description](#e2893c627fd66e2ede2eac395812e95162ae0d15-12))
+*&ast;* fix using incorrect variable for update commits ([description](#e2893c627fd66e2ede2eac395812e95162ae0d15-13))
 
 *&ast;* fix wording of update statistics
 
-*&ast;* fix using wrong variable for update statistics ([description](#a05e767311e7147fa2647d3e848fc880ea733582-12))
+*&ast;* fix using wrong variable for update statistics ([description](#a05e767311e7147fa2647d3e848fc880ea733582-13))
 
 *&ast;* fix using `mergeCommits` instead of `fixCommits`
 
-*&ast;* fix code block not showing everything ([description](#0db931663b07b7866c00ba3d7be7c349891cdc78-12))
+*&ast;* fix code block not showing everything ([description](#0db931663b07b7866c00ba3d7be7c349891cdc78-13))
 
-*>* Merge branch 'hotfix/first-commit-on-same-line' into develop
+*>* Merge branch 'feature/readme' into develop
 
 *>* Merge branch 'hotfix/first-commit-on-same-line'
 
-*^* update examples
+*>* Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+*^* Update examples
 
 *^* update examples
 
 *^* update examples
 
-*?* escape fix symbol ([description](#5af6e59e002a29ae7bc48cb326e8b5c1d083f67d-12))
+*^* update examples
+
+*?* escape fix symbol ([description](#5af6e59e002a29ae7bc48cb326e8b5c1d083f67d-13))
 
 *?* Initial commit
 ### Descriptions
+##### c17b8bba3ca52bcae219be4302d703401d3730c4
+It would be odd if this package didn't use itself!                    
+##### f64c16e3cd10f7ef672d07e987b174fdff2cc824
+To allow people to see what everything is about
 ##### 2a422db99561210e0d43ff19071dd35b68bc68bd
 Allows update commits to be detected by the system.
 ##### 223c6ecdec0cde19c0ec88e83b29aed6904d2e08
@@ -88,6 +106,8 @@ This is what generates the changelogs
 Nothing much yet in here. TODO add more to Readme
 ##### 03a42bd4d1609bf91474560347b54bfec824983b
 Allows people using IDEs based on the Intellij platform to have everything set up
+##### bf070051bdd9fda2101652b5d557c0b748822d02
+This forces it to be on a newline, and also allows for more display options for any descriptions.
 ##### 8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12
 This will mean that the first commit will be on a different line to the previous message, and it does not matter for the last commit as it has a header after.
 ##### 3f11829000fba42a4476ca59563ee0460689c958

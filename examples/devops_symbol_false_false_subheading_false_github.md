@@ -1,75 +1,93 @@
 # Changelog
-## 0.0.0 (2019/02/15)
+## 0.0.0 (2019/02/16)
 #### Statistics
-**commit count**: 25
+**commit count**: 32
 
-**additions**: 10
+**additions**: 14
 
 **removals**: 0
 
-**changes**: 2
+**changes**: 3
 
 **fixes**: 6
 
-**merges**: 2
+**merges**: 3
 
-**updates**: 3
+**updates**: 4
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
 
+*+* add changelog
+
+*+* add changelog generator ([description](#add-changelog-generator-11))
+
+*+* add warning for using arguments
+
+*+* add readme ([description](#add-readme-11))
+
 *+* add fixes to statistics
 
-*+* add update commit support ([description](#add-update-commit-support-9))
+*+* add update commit support ([description](#add-update-commit-support-11))
 
-*+* add fix commit support ([description](#add-fix-commit-support-9))
+*+* add fix commit support ([description](#add-fix-commit-support-11))
 
-*+* add more info to examples readme ([description](#add-more-info-to-examples-readme-9))
+*+* add more info to examples readme ([description](#add-more-info-to-examples-readme-11))
 
-*+* add codealike file ([description](#add-codealike-file-9))
+*+* add codealike file ([description](#add-codealike-file-11))
 
-*+* add test/example generator ([description](#add-testexample-generator-9))
+*+* add test/example generator ([description](#add-testexample-generator-11))
 
-*+* add package.json ([description](#add-packagejson-9))
+*+* add package.json ([description](#add-packagejson-11))
 
-*+* add generator ([description](#add-generator-9))
+*+* add generator ([description](#add-generator-11))
 
-*+* add basic readme ([description](#add-basic-readme-9))
+*+* add basic readme ([description](#add-basic-readme-11))
 
-*+* add intellij files ([description](#add-intellij-files-9))
+*+* add intellij files ([description](#add-intellij-files-11))
 
-*&ast;* change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-9))
+*&ast;* change inline description to use blockquote ([description](#change-inline-description-to-use-blockquote-11))
 
-*&ast;* change test to use current repository ([description](#change-test-to-use-current-repository-9))
+*&ast;* change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-11))
+
+*&ast;* change test to use current repository ([description](#change-test-to-use-current-repository-11))
 
 *&ast;* fix displaying `***` by using html escape char
 
-*&ast;* fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-9))
+*&ast;* fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-11))
 
 *&ast;* fix wording of update statistics
 
-*&ast;* fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-9))
+*&ast;* fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-11))
 
 *&ast;* fix using `mergeCommits` instead of `fixCommits`
 
-*&ast;* fix code block not showing everything ([description](#fix-code-block-not-showing-everything-9))
+*&ast;* fix code block not showing everything ([description](#fix-code-block-not-showing-everything-11))
 
-*>* Merge branch 'hotfix/first-commit-on-same-line' into develop
+*>* Merge branch 'feature/readme' into develop
 
 *>* Merge branch 'hotfix/first-commit-on-same-line'
 
-*^* update examples
+*>* Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+*^* Update examples
 
 *^* update examples
 
 *^* update examples
 
-*?* escape fix symbol ([description](#escape-fix-symbol-9))
+*^* update examples
+
+*?* escape fix symbol ([description](#escape-fix-symbol-11))
 
 *?* Initial commit
 ### Descriptions
+##### [add changelog generator](commit/c17b8bba3ca52bcae219be4302d703401d3730c4?refName=refs/heads/master)
+It would be odd if this package didn't use itself!                    
+##### [add readme](commit/f64c16e3cd10f7ef672d07e987b174fdff2cc824?refName=refs/heads/master)
+To allow people to see what everything is about
 ##### [add update commit support](commit/2a422db99561210e0d43ff19071dd35b68bc68bd?refName=refs/heads/master)
 Allows update commits to be detected by the system.
 ##### [add fix commit support](commit/223c6ecdec0cde19c0ec88e83b29aed6904d2e08?refName=refs/heads/master)
@@ -88,6 +106,8 @@ This is what generates the changelogs
 Nothing much yet in here. TODO add more to Readme
 ##### [add intellij files](commit/03a42bd4d1609bf91474560347b54bfec824983b?refName=refs/heads/master)
 Allows people using IDEs based on the Intellij platform to have everything set up
+##### [change inline description to use blockquote](commit/bf070051bdd9fda2101652b5d557c0b748822d02?refName=refs/heads/master)
+This forces it to be on a newline, and also allows for more display options for any descriptions.
 ##### [change text newline to be before each commit](commit/8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12?refName=refs/heads/master)
 This will mean that the first commit will be on a different line to the previous message, and it does not matter for the last commit as it has a header after.
 ##### [change test to use current repository](commit/3f11829000fba42a4476ca59563ee0460689c958?refName=refs/heads/master)

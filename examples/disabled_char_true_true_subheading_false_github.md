@@ -1,24 +1,32 @@
 # Changelog
-## 0.0.0 (2019/02/15)
+## 0.0.0 (2019/02/16)
 #### Statistics
-**commit count**: 25
+**commit count**: 32
 
-**additions**: 10
+**additions**: 14
 
 **removals**: 0
 
-**changes**: 2
+**changes**: 3
 
 **fixes**: 6
 
-**merges**: 2
+**merges**: 3
 
-**updates**: 3
+**updates**: 4
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
+
+*a:* `c233fd4a61c75bf2477459e40257f5654e450350`: add changelog
+
+*a:* `c17b8bba3ca52bcae219be4302d703401d3730c4`: add changelog generator ([description](#add-changelog-generator-20))
+
+*a:* `463bb7bad647d662931fcb5fb2adf6bc7343ef9e`: add warning for using arguments
+
+*a:* `f64c16e3cd10f7ef672d07e987b174fdff2cc824`: add readme ([description](#add-readme-20))
 
 *a:* `5f87b3b1d60db96cd9f3f838f0a161e6a2358753`: add fixes to statistics
 
@@ -40,6 +48,8 @@
 
 *a:* `03a42bd4d1609bf91474560347b54bfec824983b`: add intellij files ([description](#add-intellij-files-20))
 
+*c:* `bf070051bdd9fda2101652b5d557c0b748822d02`: change inline description to use blockquote ([description](#change-inline-description-to-use-blockquote-20))
+
 *c:* `8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12`: change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-20))
 
 *c:* `3f11829000fba42a4476ca59563ee0460689c958`: change test to use current repository ([description](#change-test-to-use-current-repository-20))
@@ -56,9 +66,13 @@
 
 *f:* `0db931663b07b7866c00ba3d7be7c349891cdc78`: fix code block not showing everything ([description](#fix-code-block-not-showing-everything-20))
 
-*m:* `88e7611206dfb6452101688ee73f854079e7bddb`: Merge branch 'hotfix/first-commit-on-same-line' into develop
+*m:* `30d7298aee8f61b5cb41854dec840c6d3c53aba3`: Merge branch 'feature/readme' into develop
 
 *m:* `6f8e4c455a0191aa3153db3bc63008abe797812f`: Merge branch 'hotfix/first-commit-on-same-line'
+
+*m:* `88e7611206dfb6452101688ee73f854079e7bddb`: Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+*u:* `c88155944cb8ea6e4082952312c49d8441051c3d`: Update examples
 
 *u:* `86b87788962abef9d35998f135de100f00c63ec1`: update examples
 
@@ -70,6 +84,10 @@
 
 *o:* `292e1c610efa3461ab617cf86dcc537c5e9cbc5a`: Initial commit
 ### Descriptions
+##### add changelog generator
+It would be odd if this package didn't use itself!                    
+##### add readme
+To allow people to see what everything is about
 ##### add update commit support
 Allows update commits to be detected by the system.
 ##### add fix commit support
@@ -88,6 +106,8 @@ This is what generates the changelogs
 Nothing much yet in here. TODO add more to Readme
 ##### add intellij files
 Allows people using IDEs based on the Intellij platform to have everything set up
+##### change inline description to use blockquote
+This forces it to be on a newline, and also allows for more display options for any descriptions.
 ##### change text newline to be before each commit
 This will mean that the first commit will be on a different line to the previous message, and it does not matter for the last commit as it has a header after.
 ##### change test to use current repository

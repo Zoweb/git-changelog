@@ -1,24 +1,34 @@
 # Changelog
-## 0.0.0 (2019/02/15)
+## 0.0.0 (2019/02/16)
 #### Statistics
-**commit count**: 25
+**commit count**: 32
 
-**additions**: 10
+**additions**: 14
 
 **removals**: 0
 
-**changes**: 2
+**changes**: 3
 
 **fixes**: 6
 
-**merges**: 2
+**merges**: 3
 
-**updates**: 3
+**updates**: 4
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
+
+*+* [`c233fd4a`](commit/c233fd4a61c75bf2477459e40257f5654e450350?refName=refs/heads/master): add changelog
+
+*+* [`c17b8bba`](commit/c17b8bba3ca52bcae219be4302d703401d3730c4?refName=refs/heads/master): add changelog generator
+> It would be odd if this package didn't use itself!                    
+
+*+* [`463bb7ba`](commit/463bb7bad647d662931fcb5fb2adf6bc7343ef9e?refName=refs/heads/master): add warning for using arguments
+
+*+* [`f64c16e3`](commit/f64c16e3cd10f7ef672d07e987b174fdff2cc824?refName=refs/heads/master): add readme
+> To allow people to see what everything is about
 
 *+* [`5f87b3b1`](commit/5f87b3b1d60db96cd9f3f838f0a161e6a2358753?refName=refs/heads/master): add fixes to statistics
 
@@ -49,6 +59,9 @@
 *+* [`03a42bd4`](commit/03a42bd4d1609bf91474560347b54bfec824983b?refName=refs/heads/master): add intellij files
 > Allows people using IDEs based on the Intellij platform to have everything set up
 
+*&ast;* [`bf070051`](commit/bf070051bdd9fda2101652b5d557c0b748822d02?refName=refs/heads/master): change inline description to use blockquote
+> This forces it to be on a newline, and also allows for more display options for any descriptions.
+
 *&ast;* [`8b8ab47f`](commit/8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12?refName=refs/heads/master): change text newline to be before each commit
 > This will mean that the first commit will be on a different line to the previous message, and it does not matter for the last commit as it has a header after.
 
@@ -70,9 +83,13 @@
 *&ast;* [`0db93166`](commit/0db931663b07b7866c00ba3d7be7c349891cdc78?refName=refs/heads/master): fix code block not showing everything
 > It wasn't working because one of the values was on the same line as the code block opening.
 
-*>* [`88e76112`](commit/88e7611206dfb6452101688ee73f854079e7bddb?refName=refs/heads/master): Merge branch 'hotfix/first-commit-on-same-line' into develop
+*>* [`30d7298a`](commit/30d7298aee8f61b5cb41854dec840c6d3c53aba3?refName=refs/heads/master): Merge branch 'feature/readme' into develop
 
 *>* [`6f8e4c45`](commit/6f8e4c455a0191aa3153db3bc63008abe797812f?refName=refs/heads/master): Merge branch 'hotfix/first-commit-on-same-line'
+
+*>* [`88e76112`](commit/88e7611206dfb6452101688ee73f854079e7bddb?refName=refs/heads/master): Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+*^* [`c8815594`](commit/c88155944cb8ea6e4082952312c49d8441051c3d?refName=refs/heads/master): Update examples
 
 *^* [`86b87788`](commit/86b87788962abef9d35998f135de100f00c63ec1?refName=refs/heads/master): update examples
 

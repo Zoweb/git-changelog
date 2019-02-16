@@ -1,25 +1,33 @@
 # Changelog
-## 0.0.0 (2019/02/15)
+## 0.0.0 (2019/02/16)
 #### Statistics
-**commit count**: 25
+**commit count**: 32
 
-**additions**: 10
+**additions**: 14
 
 **removals**: 0
 
-**changes**: 2
+**changes**: 3
 
 **fixes**: 6
 
-**merges**: 2
+**merges**: 3
 
-**updates**: 3
+**updates**: 4
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
 ##### Additions
+
+ `c233fd4a`: add changelog
+
+ `c17b8bba`: add changelog generator
+
+ `463bb7ba`: add warning for using arguments
+
+ `f64c16e3`: add readme
 
  `5f87b3b1`: add fixes to statistics
 
@@ -44,6 +52,8 @@
 
 ##### Changes
 
+ `bf070051`: change inline description to use blockquote
+
  `8b8ab47f`: change text newline to be before each commit
 
  `3f118290`: change test to use current repository
@@ -62,10 +72,14 @@
  `0db93166`: fix code block not showing everything
 ##### Merges
 
- `88e76112`: Merge branch 'hotfix/first-commit-on-same-line' into develop
+ `30d7298a`: Merge branch 'feature/readme' into develop
 
  `6f8e4c45`: Merge branch 'hotfix/first-commit-on-same-line'
+
+ `88e76112`: Merge branch 'hotfix/first-commit-on-same-line' into develop
 ##### Updates
+
+ `c8815594`: Update examples
 
  `86b87788`: update examples
 

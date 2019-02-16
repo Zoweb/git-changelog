@@ -1,75 +1,93 @@
 # Changelog
-## 0.0.0 (2019/02/15)
+## 0.0.0 (2019/02/16)
 #### Statistics
-**commit count**: 25
+**commit count**: 32
 
-**additions**: 10
+**additions**: 14
 
 **removals**: 0
 
-**changes**: 2
+**changes**: 3
 
 **fixes**: 6
 
-**merges**: 2
+**merges**: 3
 
-**updates**: 3
+**updates**: 4
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
 
+*addition:* add changelog
+
+*addition:* add changelog generator ([description](#add-changelog-generator-3))
+
+*addition:* add warning for using arguments
+
+*addition:* add readme ([description](#add-readme-3))
+
 *addition:* add fixes to statistics
 
-*addition:* add update commit support ([description](#add-update-commit-support-1))
+*addition:* add update commit support ([description](#add-update-commit-support-3))
 
-*addition:* add fix commit support ([description](#add-fix-commit-support-1))
+*addition:* add fix commit support ([description](#add-fix-commit-support-3))
 
-*addition:* add more info to examples readme ([description](#add-more-info-to-examples-readme-1))
+*addition:* add more info to examples readme ([description](#add-more-info-to-examples-readme-3))
 
-*addition:* add codealike file ([description](#add-codealike-file-1))
+*addition:* add codealike file ([description](#add-codealike-file-3))
 
-*addition:* add test/example generator ([description](#add-testexample-generator-1))
+*addition:* add test/example generator ([description](#add-testexample-generator-3))
 
-*addition:* add package.json ([description](#add-packagejson-1))
+*addition:* add package.json ([description](#add-packagejson-3))
 
-*addition:* add generator ([description](#add-generator-1))
+*addition:* add generator ([description](#add-generator-3))
 
-*addition:* add basic readme ([description](#add-basic-readme-1))
+*addition:* add basic readme ([description](#add-basic-readme-3))
 
-*addition:* add intellij files ([description](#add-intellij-files-1))
+*addition:* add intellij files ([description](#add-intellij-files-3))
 
-*change:* change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-1))
+*change:* change inline description to use blockquote ([description](#change-inline-description-to-use-blockquote-3))
 
-*change:* change test to use current repository ([description](#change-test-to-use-current-repository-1))
+*change:* change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-3))
+
+*change:* change test to use current repository ([description](#change-test-to-use-current-repository-3))
 
 *fix:* fix displaying `***` by using html escape char
 
-*fix:* fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-1))
+*fix:* fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-3))
 
 *fix:* fix wording of update statistics
 
-*fix:* fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-1))
+*fix:* fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-3))
 
 *fix:* fix using `mergeCommits` instead of `fixCommits`
 
-*fix:* fix code block not showing everything ([description](#fix-code-block-not-showing-everything-1))
+*fix:* fix code block not showing everything ([description](#fix-code-block-not-showing-everything-3))
 
-*merge:* Merge branch 'hotfix/first-commit-on-same-line' into develop
+*merge:* Merge branch 'feature/readme' into develop
 
 *merge:* Merge branch 'hotfix/first-commit-on-same-line'
 
-*update:* update examples
+*merge:* Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+*update:* Update examples
 
 *update:* update examples
 
 *update:* update examples
 
-*other:* escape fix symbol ([description](#escape-fix-symbol-1))
+*update:* update examples
+
+*other:* escape fix symbol ([description](#escape-fix-symbol-3))
 
 *other:* Initial commit
 ### Descriptions
+##### [add changelog generator](commit/c17b8bba3ca52bcae219be4302d703401d3730c4?refName=refs/heads/master)
+It would be odd if this package didn't use itself!                    
+##### [add readme](commit/f64c16e3cd10f7ef672d07e987b174fdff2cc824?refName=refs/heads/master)
+To allow people to see what everything is about
 ##### [add update commit support](commit/2a422db99561210e0d43ff19071dd35b68bc68bd?refName=refs/heads/master)
 Allows update commits to be detected by the system.
 ##### [add fix commit support](commit/223c6ecdec0cde19c0ec88e83b29aed6904d2e08?refName=refs/heads/master)
@@ -88,6 +106,8 @@ This is what generates the changelogs
 Nothing much yet in here. TODO add more to Readme
 ##### [add intellij files](commit/03a42bd4d1609bf91474560347b54bfec824983b?refName=refs/heads/master)
 Allows people using IDEs based on the Intellij platform to have everything set up
+##### [change inline description to use blockquote](commit/bf070051bdd9fda2101652b5d557c0b748822d02?refName=refs/heads/master)
+This forces it to be on a newline, and also allows for more display options for any descriptions.
 ##### [change text newline to be before each commit](commit/8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12?refName=refs/heads/master)
 This will mean that the first commit will be on a different line to the previous message, and it does not matter for the last commit as it has a header after.
 ##### [change test to use current repository](commit/3f11829000fba42a4476ca59563ee0460689c958?refName=refs/heads/master)

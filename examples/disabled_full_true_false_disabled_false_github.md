@@ -1,24 +1,32 @@
 # Changelog
-## 0.0.0 (2019/02/15)
+## 0.0.0 (2019/02/16)
 #### Statistics
-**commit count**: 25
+**commit count**: 32
 
-**additions**: 10
+**additions**: 14
 
 **removals**: 0
 
-**changes**: 2
+**changes**: 3
 
 **fixes**: 6
 
-**merges**: 2
+**merges**: 3
 
-**updates**: 3
+**updates**: 4
 
 **other commits**: 2
 
 #### Log
 <small>(note: any additions may have been removed, and any removals may have been added back in.)</small>
+
+*addition:* `c233fd4a`: add changelog
+
+*addition:* `c17b8bba`: add changelog generator
+
+*addition:* `463bb7ba`: add warning for using arguments
+
+*addition:* `f64c16e3`: add readme
 
 *addition:* `5f87b3b1`: add fixes to statistics
 
@@ -40,6 +48,8 @@
 
 *addition:* `03a42bd4`: add intellij files
 
+*change:* `bf070051`: change inline description to use blockquote
+
 *change:* `8b8ab47f`: change text newline to be before each commit
 
 *change:* `3f118290`: change test to use current repository
@@ -56,9 +66,13 @@
 
 *fix:* `0db93166`: fix code block not showing everything
 
-*merge:* `88e76112`: Merge branch 'hotfix/first-commit-on-same-line' into develop
+*merge:* `30d7298a`: Merge branch 'feature/readme' into develop
 
 *merge:* `6f8e4c45`: Merge branch 'hotfix/first-commit-on-same-line'
+
+*merge:* `88e76112`: Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+*update:* `c8815594`: Update examples
 
 *update:* `86b87788`: update examples
 
