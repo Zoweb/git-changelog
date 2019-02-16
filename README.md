@@ -45,6 +45,9 @@ Each command uses the same options.
     
 ## In-Code Usage
 
+Warning: git-changelog currently still will use arguments when using the API. Make sure you don't use any of it's 
+arguments, otherwise it might do something unexpected!
+
 ### Generate a Changelog
 ```js
 const gitChangelog = require("path/to/git-changelog");
