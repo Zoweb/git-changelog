@@ -1,7 +1,7 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 22
+**commit count**: 25
 
 **additions**: 10
 
@@ -11,9 +11,9 @@
 
 **fixes**: 6
 
-**merges**: 0
+**merges**: 2
 
-**updates**: 2
+**updates**: 3
 
 **other commits**: 2
 
@@ -62,7 +62,12 @@
  fix code block not showing everything ([description](#0db931663b07b7866c00ba3d7be7c349891cdc78-15))
 ##### Merges
 
+ Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+ Merge branch 'hotfix/first-commit-on-same-line'
 ##### Updates
+
+ update examples
 
  update examples
 

@@ -1,7 +1,7 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 22
+**commit count**: 25
 
 **additions**: 10
 
@@ -11,9 +11,9 @@
 
 **fixes**: 6
 
-**merges**: 0
+**merges**: 2
 
-**updates**: 2
+**updates**: 3
 
 **other commits**: 2
 
@@ -23,53 +23,58 @@
 
  add fixes to statistics
 
- add update commit support ([description](#add-update-commit-support-15))
+ add update commit support ([description](#add-update-commit-support-13))
 
- add fix commit support ([description](#add-fix-commit-support-15))
+ add fix commit support ([description](#add-fix-commit-support-13))
 
- add more info to examples readme ([description](#add-more-info-to-examples-readme-15))
+ add more info to examples readme ([description](#add-more-info-to-examples-readme-13))
 
- add codealike file ([description](#add-codealike-file-15))
+ add codealike file ([description](#add-codealike-file-13))
 
- add test/example generator ([description](#add-testexample-generator-15))
+ add test/example generator ([description](#add-testexample-generator-13))
 
- add package.json ([description](#add-packagejson-15))
+ add package.json ([description](#add-packagejson-13))
 
- add generator ([description](#add-generator-15))
+ add generator ([description](#add-generator-13))
 
- add basic readme ([description](#add-basic-readme-15))
+ add basic readme ([description](#add-basic-readme-13))
 
- add intellij files ([description](#add-intellij-files-15))
+ add intellij files ([description](#add-intellij-files-13))
 ##### Removals
 
 ##### Changes
 
- change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-15))
+ change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-13))
 
- change test to use current repository ([description](#change-test-to-use-current-repository-15))
+ change test to use current repository ([description](#change-test-to-use-current-repository-13))
 ##### Fixes
 
  fix displaying `***` by using html escape char
 
- fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-15))
+ fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-13))
 
  fix wording of update statistics
 
- fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-15))
+ fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-13))
 
  fix using `mergeCommits` instead of `fixCommits`
 
- fix code block not showing everything ([description](#fix-code-block-not-showing-everything-15))
+ fix code block not showing everything ([description](#fix-code-block-not-showing-everything-13))
 ##### Merges
 
+ Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+ Merge branch 'hotfix/first-commit-on-same-line'
 ##### Updates
+
+ update examples
 
  update examples
 
  update examples
 ##### Other
 
- escape fix symbol ([description](#escape-fix-symbol-15))
+ escape fix symbol ([description](#escape-fix-symbol-13))
 
  Initial commit
 ### Descriptions

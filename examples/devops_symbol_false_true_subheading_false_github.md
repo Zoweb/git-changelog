@@ -1,7 +1,7 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 22
+**commit count**: 25
 
 **additions**: 10
 
@@ -11,9 +11,9 @@
 
 **fixes**: 6
 
-**merges**: 0
+**merges**: 2
 
-**updates**: 2
+**updates**: 3
 
 **other commits**: 2
 
@@ -22,45 +22,51 @@
 
 *+* add fixes to statistics
 
-*+* add update commit support ([description](#add-update-commit-support-10))
+*+* add update commit support ([description](#add-update-commit-support-8))
 
-*+* add fix commit support ([description](#add-fix-commit-support-10))
+*+* add fix commit support ([description](#add-fix-commit-support-8))
 
-*+* add more info to examples readme ([description](#add-more-info-to-examples-readme-10))
+*+* add more info to examples readme ([description](#add-more-info-to-examples-readme-8))
 
-*+* add codealike file ([description](#add-codealike-file-10))
+*+* add codealike file ([description](#add-codealike-file-8))
 
-*+* add test/example generator ([description](#add-testexample-generator-10))
+*+* add test/example generator ([description](#add-testexample-generator-8))
 
-*+* add package.json ([description](#add-packagejson-10))
+*+* add package.json ([description](#add-packagejson-8))
 
-*+* add generator ([description](#add-generator-10))
+*+* add generator ([description](#add-generator-8))
 
-*+* add basic readme ([description](#add-basic-readme-10))
+*+* add basic readme ([description](#add-basic-readme-8))
 
-*+* add intellij files ([description](#add-intellij-files-10))
+*+* add intellij files ([description](#add-intellij-files-8))
 
-*&ast;* change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-10))
+*&ast;* change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-8))
 
-*&ast;* change test to use current repository ([description](#change-test-to-use-current-repository-10))
+*&ast;* change test to use current repository ([description](#change-test-to-use-current-repository-8))
 
 *&ast;* fix displaying `***` by using html escape char
 
-*&ast;* fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-10))
+*&ast;* fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-8))
 
 *&ast;* fix wording of update statistics
 
-*&ast;* fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-10))
+*&ast;* fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-8))
 
 *&ast;* fix using `mergeCommits` instead of `fixCommits`
 
-*&ast;* fix code block not showing everything ([description](#fix-code-block-not-showing-everything-10))
+*&ast;* fix code block not showing everything ([description](#fix-code-block-not-showing-everything-8))
+
+*>* Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+*>* Merge branch 'hotfix/first-commit-on-same-line'
 
 *^* update examples
 
 *^* update examples
 
-*?* escape fix symbol ([description](#escape-fix-symbol-10))
+*^* update examples
+
+*?* escape fix symbol ([description](#escape-fix-symbol-8))
 
 *?* Initial commit
 ### Descriptions

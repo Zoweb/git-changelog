@@ -1,7 +1,7 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 22
+**commit count**: 25
 
 **additions**: 10
 
@@ -11,9 +11,9 @@
 
 **fixes**: 6
 
-**merges**: 0
+**merges**: 2
 
-**updates**: 2
+**updates**: 3
 
 **other commits**: 2
 
@@ -22,45 +22,51 @@
 
 *addition:* add fixes to statistics
 
-*addition:* add update commit support ([description](#add-update-commit-support-2))
+*addition:* add update commit support ([description](#add-update-commit-support-17))
 
-*addition:* add fix commit support ([description](#add-fix-commit-support-2))
+*addition:* add fix commit support ([description](#add-fix-commit-support-17))
 
-*addition:* add more info to examples readme ([description](#add-more-info-to-examples-readme-2))
+*addition:* add more info to examples readme ([description](#add-more-info-to-examples-readme-17))
 
-*addition:* add codealike file ([description](#add-codealike-file-2))
+*addition:* add codealike file ([description](#add-codealike-file-17))
 
-*addition:* add test/example generator ([description](#add-testexample-generator-2))
+*addition:* add test/example generator ([description](#add-testexample-generator-17))
 
-*addition:* add package.json ([description](#add-packagejson-2))
+*addition:* add package.json ([description](#add-packagejson-17))
 
-*addition:* add generator ([description](#add-generator-2))
+*addition:* add generator ([description](#add-generator-17))
 
-*addition:* add basic readme ([description](#add-basic-readme-2))
+*addition:* add basic readme ([description](#add-basic-readme-17))
 
-*addition:* add intellij files ([description](#add-intellij-files-2))
+*addition:* add intellij files ([description](#add-intellij-files-17))
 
-*change:* change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-2))
+*change:* change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-17))
 
-*change:* change test to use current repository ([description](#change-test-to-use-current-repository-2))
+*change:* change test to use current repository ([description](#change-test-to-use-current-repository-17))
 
 *fix:* fix displaying `***` by using html escape char
 
-*fix:* fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-2))
+*fix:* fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-17))
 
 *fix:* fix wording of update statistics
 
-*fix:* fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-2))
+*fix:* fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-17))
 
 *fix:* fix using `mergeCommits` instead of `fixCommits`
 
-*fix:* fix code block not showing everything ([description](#fix-code-block-not-showing-everything-2))
+*fix:* fix code block not showing everything ([description](#fix-code-block-not-showing-everything-17))
+
+*merge:* Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+*merge:* Merge branch 'hotfix/first-commit-on-same-line'
 
 *update:* update examples
 
 *update:* update examples
 
-*other:* escape fix symbol ([description](#escape-fix-symbol-2))
+*update:* update examples
+
+*other:* escape fix symbol ([description](#escape-fix-symbol-17))
 
 *other:* Initial commit
 ### Descriptions

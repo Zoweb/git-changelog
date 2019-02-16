@@ -1,7 +1,7 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 22
+**commit count**: 25
 
 **additions**: 10
 
@@ -11,9 +11,9 @@
 
 **fixes**: 6
 
-**merges**: 0
+**merges**: 2
 
-**updates**: 2
+**updates**: 3
 
 **other commits**: 2
 
@@ -22,45 +22,51 @@
 
 *+* add fixes to statistics
 
-*+* add update commit support ([description](#2a422db9-13))
+*+* add update commit support ([description](#2a422db9-12))
 
-*+* add fix commit support ([description](#223c6ecd-13))
+*+* add fix commit support ([description](#223c6ecd-12))
 
-*+* add more info to examples readme ([description](#31b21318-13))
+*+* add more info to examples readme ([description](#31b21318-12))
 
-*+* add codealike file ([description](#eeb75f31-13))
+*+* add codealike file ([description](#eeb75f31-12))
 
-*+* add test/example generator ([description](#537ce93e-13))
+*+* add test/example generator ([description](#537ce93e-12))
 
-*+* add package.json ([description](#71e1d283-13))
+*+* add package.json ([description](#71e1d283-12))
 
-*+* add generator ([description](#c98dca5e-13))
+*+* add generator ([description](#c98dca5e-12))
 
-*+* add basic readme ([description](#f79ea73c-13))
+*+* add basic readme ([description](#f79ea73c-12))
 
-*+* add intellij files ([description](#03a42bd4-13))
+*+* add intellij files ([description](#03a42bd4-12))
 
-*&ast;* change text newline to be before each commit ([description](#8b8ab47f-13))
+*&ast;* change text newline to be before each commit ([description](#8b8ab47f-12))
 
-*&ast;* change test to use current repository ([description](#3f118290-13))
+*&ast;* change test to use current repository ([description](#3f118290-12))
 
 *&ast;* fix displaying `***` by using html escape char
 
-*&ast;* fix using incorrect variable for update commits ([description](#e2893c62-13))
+*&ast;* fix using incorrect variable for update commits ([description](#e2893c62-12))
 
 *&ast;* fix wording of update statistics
 
-*&ast;* fix using wrong variable for update statistics ([description](#a05e7673-13))
+*&ast;* fix using wrong variable for update statistics ([description](#a05e7673-12))
 
 *&ast;* fix using `mergeCommits` instead of `fixCommits`
 
-*&ast;* fix code block not showing everything ([description](#0db93166-13))
+*&ast;* fix code block not showing everything ([description](#0db93166-12))
+
+*>* Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+*>* Merge branch 'hotfix/first-commit-on-same-line'
 
 *^* update examples
 
 *^* update examples
 
-*?* escape fix symbol ([description](#5af6e59e-13))
+*^* update examples
+
+*?* escape fix symbol ([description](#5af6e59e-12))
 
 *?* Initial commit
 ### Descriptions

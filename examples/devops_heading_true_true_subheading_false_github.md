@@ -1,7 +1,7 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 22
+**commit count**: 25
 
 **additions**: 10
 
@@ -11,9 +11,9 @@
 
 **fixes**: 6
 
-**merges**: 0
+**merges**: 2
 
-**updates**: 2
+**updates**: 3
 
 **other commits**: 2
 
@@ -23,53 +23,58 @@
 
  [`5f87b3b1d60db96cd9f3f838f0a161e6a2358753`](commit/5f87b3b1d60db96cd9f3f838f0a161e6a2358753?refName=refs/heads/master): add fixes to statistics
 
- [`2a422db99561210e0d43ff19071dd35b68bc68bd`](commit/2a422db99561210e0d43ff19071dd35b68bc68bd?refName=refs/heads/master): add update commit support ([description](#add-update-commit-support-12))
+ [`2a422db99561210e0d43ff19071dd35b68bc68bd`](commit/2a422db99561210e0d43ff19071dd35b68bc68bd?refName=refs/heads/master): add update commit support ([description](#add-update-commit-support-10))
 
- [`223c6ecdec0cde19c0ec88e83b29aed6904d2e08`](commit/223c6ecdec0cde19c0ec88e83b29aed6904d2e08?refName=refs/heads/master): add fix commit support ([description](#add-fix-commit-support-12))
+ [`223c6ecdec0cde19c0ec88e83b29aed6904d2e08`](commit/223c6ecdec0cde19c0ec88e83b29aed6904d2e08?refName=refs/heads/master): add fix commit support ([description](#add-fix-commit-support-10))
 
- [`31b2131866556049ae926d4abaf2b492a1e2af28`](commit/31b2131866556049ae926d4abaf2b492a1e2af28?refName=refs/heads/master): add more info to examples readme ([description](#add-more-info-to-examples-readme-12))
+ [`31b2131866556049ae926d4abaf2b492a1e2af28`](commit/31b2131866556049ae926d4abaf2b492a1e2af28?refName=refs/heads/master): add more info to examples readme ([description](#add-more-info-to-examples-readme-10))
 
- [`eeb75f31aa45a630b30aff066ffe2f2d81ab4b0a`](commit/eeb75f31aa45a630b30aff066ffe2f2d81ab4b0a?refName=refs/heads/master): add codealike file ([description](#add-codealike-file-12))
+ [`eeb75f31aa45a630b30aff066ffe2f2d81ab4b0a`](commit/eeb75f31aa45a630b30aff066ffe2f2d81ab4b0a?refName=refs/heads/master): add codealike file ([description](#add-codealike-file-10))
 
- [`537ce93e1967e25c3a988f4ce92ec886e7d316eb`](commit/537ce93e1967e25c3a988f4ce92ec886e7d316eb?refName=refs/heads/master): add test/example generator ([description](#add-testexample-generator-12))
+ [`537ce93e1967e25c3a988f4ce92ec886e7d316eb`](commit/537ce93e1967e25c3a988f4ce92ec886e7d316eb?refName=refs/heads/master): add test/example generator ([description](#add-testexample-generator-10))
 
- [`71e1d2830a151f4c95a9f5533c6bdc10fa28069e`](commit/71e1d2830a151f4c95a9f5533c6bdc10fa28069e?refName=refs/heads/master): add package.json ([description](#add-packagejson-12))
+ [`71e1d2830a151f4c95a9f5533c6bdc10fa28069e`](commit/71e1d2830a151f4c95a9f5533c6bdc10fa28069e?refName=refs/heads/master): add package.json ([description](#add-packagejson-10))
 
- [`c98dca5eac6d4f749be01bb619264628f470901d`](commit/c98dca5eac6d4f749be01bb619264628f470901d?refName=refs/heads/master): add generator ([description](#add-generator-12))
+ [`c98dca5eac6d4f749be01bb619264628f470901d`](commit/c98dca5eac6d4f749be01bb619264628f470901d?refName=refs/heads/master): add generator ([description](#add-generator-10))
 
- [`f79ea73cdc47fd8cbca8d9013bbc3942c4119f12`](commit/f79ea73cdc47fd8cbca8d9013bbc3942c4119f12?refName=refs/heads/master): add basic readme ([description](#add-basic-readme-12))
+ [`f79ea73cdc47fd8cbca8d9013bbc3942c4119f12`](commit/f79ea73cdc47fd8cbca8d9013bbc3942c4119f12?refName=refs/heads/master): add basic readme ([description](#add-basic-readme-10))
 
- [`03a42bd4d1609bf91474560347b54bfec824983b`](commit/03a42bd4d1609bf91474560347b54bfec824983b?refName=refs/heads/master): add intellij files ([description](#add-intellij-files-12))
+ [`03a42bd4d1609bf91474560347b54bfec824983b`](commit/03a42bd4d1609bf91474560347b54bfec824983b?refName=refs/heads/master): add intellij files ([description](#add-intellij-files-10))
 ##### Removals
 
 ##### Changes
 
- [`8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12`](commit/8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12?refName=refs/heads/master): change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-12))
+ [`8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12`](commit/8b8ab47fc4193261506d9fd2e2c9f0f4dfa72f12?refName=refs/heads/master): change text newline to be before each commit ([description](#change-text-newline-to-be-before-each-commit-10))
 
- [`3f11829000fba42a4476ca59563ee0460689c958`](commit/3f11829000fba42a4476ca59563ee0460689c958?refName=refs/heads/master): change test to use current repository ([description](#change-test-to-use-current-repository-12))
+ [`3f11829000fba42a4476ca59563ee0460689c958`](commit/3f11829000fba42a4476ca59563ee0460689c958?refName=refs/heads/master): change test to use current repository ([description](#change-test-to-use-current-repository-10))
 ##### Fixes
 
  [`d2ed1a36ef1b094c6b94758ab169af21970ac315`](commit/d2ed1a36ef1b094c6b94758ab169af21970ac315?refName=refs/heads/master): fix displaying `***` by using html escape char
 
- [`e2893c627fd66e2ede2eac395812e95162ae0d15`](commit/e2893c627fd66e2ede2eac395812e95162ae0d15?refName=refs/heads/master): fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-12))
+ [`e2893c627fd66e2ede2eac395812e95162ae0d15`](commit/e2893c627fd66e2ede2eac395812e95162ae0d15?refName=refs/heads/master): fix using incorrect variable for update commits ([description](#fix-using-incorrect-variable-for-update-commits-10))
 
  [`3270dec26daaff7b983109c1e29909f6ccd4c29a`](commit/3270dec26daaff7b983109c1e29909f6ccd4c29a?refName=refs/heads/master): fix wording of update statistics
 
- [`a05e767311e7147fa2647d3e848fc880ea733582`](commit/a05e767311e7147fa2647d3e848fc880ea733582?refName=refs/heads/master): fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-12))
+ [`a05e767311e7147fa2647d3e848fc880ea733582`](commit/a05e767311e7147fa2647d3e848fc880ea733582?refName=refs/heads/master): fix using wrong variable for update statistics ([description](#fix-using-wrong-variable-for-update-statistics-10))
 
  [`388ed8e0e084e06dd88e50573051ee2131c95923`](commit/388ed8e0e084e06dd88e50573051ee2131c95923?refName=refs/heads/master): fix using `mergeCommits` instead of `fixCommits`
 
- [`0db931663b07b7866c00ba3d7be7c349891cdc78`](commit/0db931663b07b7866c00ba3d7be7c349891cdc78?refName=refs/heads/master): fix code block not showing everything ([description](#fix-code-block-not-showing-everything-12))
+ [`0db931663b07b7866c00ba3d7be7c349891cdc78`](commit/0db931663b07b7866c00ba3d7be7c349891cdc78?refName=refs/heads/master): fix code block not showing everything ([description](#fix-code-block-not-showing-everything-10))
 ##### Merges
 
+ [`88e7611206dfb6452101688ee73f854079e7bddb`](commit/88e7611206dfb6452101688ee73f854079e7bddb?refName=refs/heads/master): Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+ [`6f8e4c455a0191aa3153db3bc63008abe797812f`](commit/6f8e4c455a0191aa3153db3bc63008abe797812f?refName=refs/heads/master): Merge branch 'hotfix/first-commit-on-same-line'
 ##### Updates
+
+ [`86b87788962abef9d35998f135de100f00c63ec1`](commit/86b87788962abef9d35998f135de100f00c63ec1?refName=refs/heads/master): update examples
 
  [`4b6f2fd8257c01b18ea00ac4888f4fb59e9c88c8`](commit/4b6f2fd8257c01b18ea00ac4888f4fb59e9c88c8?refName=refs/heads/master): update examples
 
  [`2f3d4e9f3094680900efc613b322563e7142a1d5`](commit/2f3d4e9f3094680900efc613b322563e7142a1d5?refName=refs/heads/master): update examples
 ##### Other
 
- [`5af6e59e002a29ae7bc48cb326e8b5c1d083f67d`](commit/5af6e59e002a29ae7bc48cb326e8b5c1d083f67d?refName=refs/heads/master): escape fix symbol ([description](#escape-fix-symbol-12))
+ [`5af6e59e002a29ae7bc48cb326e8b5c1d083f67d`](commit/5af6e59e002a29ae7bc48cb326e8b5c1d083f67d?refName=refs/heads/master): escape fix symbol ([description](#escape-fix-symbol-10))
 
  [`292e1c610efa3461ab617cf86dcc537c5e9cbc5a`](commit/292e1c610efa3461ab617cf86dcc537c5e9cbc5a?refName=refs/heads/master): Initial commit
 ### Descriptions

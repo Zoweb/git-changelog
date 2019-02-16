@@ -1,7 +1,7 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 22
+**commit count**: 25
 
 **additions**: 10
 
@@ -11,9 +11,9 @@
 
 **fixes**: 6
 
-**merges**: 0
+**merges**: 2
 
-**updates**: 2
+**updates**: 3
 
 **other commits**: 2
 
@@ -62,7 +62,12 @@
  [`0db931663b07b7866c00ba3d7be7c349891cdc78`](commit/0db931663b07b7866c00ba3d7be7c349891cdc78?refName=refs/heads/master): fix code block not showing everything
 ##### Merges
 
+ [`88e7611206dfb6452101688ee73f854079e7bddb`](commit/88e7611206dfb6452101688ee73f854079e7bddb?refName=refs/heads/master): Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+ [`6f8e4c455a0191aa3153db3bc63008abe797812f`](commit/6f8e4c455a0191aa3153db3bc63008abe797812f?refName=refs/heads/master): Merge branch 'hotfix/first-commit-on-same-line'
 ##### Updates
+
+ [`86b87788962abef9d35998f135de100f00c63ec1`](commit/86b87788962abef9d35998f135de100f00c63ec1?refName=refs/heads/master): update examples
 
  [`4b6f2fd8257c01b18ea00ac4888f4fb59e9c88c8`](commit/4b6f2fd8257c01b18ea00ac4888f4fb59e9c88c8?refName=refs/heads/master): update examples
 

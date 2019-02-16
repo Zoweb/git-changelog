@@ -1,7 +1,7 @@
 # Changelog
 ## 0.0.0 (2019/02/15)
 #### Statistics
-**commit count**: 22
+**commit count**: 25
 
 **additions**: 10
 
@@ -11,9 +11,9 @@
 
 **fixes**: 6
 
-**merges**: 0
+**merges**: 2
 
-**updates**: 2
+**updates**: 3
 
 **other commits**: 2
 
@@ -23,53 +23,58 @@
 
  add fixes to statistics
 
- add update commit support ([description](#2a422db9-7))
+ add update commit support ([description](#2a422db9-6))
 
- add fix commit support ([description](#223c6ecd-7))
+ add fix commit support ([description](#223c6ecd-6))
 
- add more info to examples readme ([description](#31b21318-7))
+ add more info to examples readme ([description](#31b21318-6))
 
- add codealike file ([description](#eeb75f31-7))
+ add codealike file ([description](#eeb75f31-6))
 
- add test/example generator ([description](#537ce93e-7))
+ add test/example generator ([description](#537ce93e-6))
 
- add package.json ([description](#71e1d283-7))
+ add package.json ([description](#71e1d283-6))
 
- add generator ([description](#c98dca5e-7))
+ add generator ([description](#c98dca5e-6))
 
- add basic readme ([description](#f79ea73c-7))
+ add basic readme ([description](#f79ea73c-6))
 
- add intellij files ([description](#03a42bd4-7))
+ add intellij files ([description](#03a42bd4-6))
 ##### Removals
 
 ##### Changes
 
- change text newline to be before each commit ([description](#8b8ab47f-7))
+ change text newline to be before each commit ([description](#8b8ab47f-6))
 
- change test to use current repository ([description](#3f118290-7))
+ change test to use current repository ([description](#3f118290-6))
 ##### Fixes
 
  fix displaying `***` by using html escape char
 
- fix using incorrect variable for update commits ([description](#e2893c62-7))
+ fix using incorrect variable for update commits ([description](#e2893c62-6))
 
  fix wording of update statistics
 
- fix using wrong variable for update statistics ([description](#a05e7673-7))
+ fix using wrong variable for update statistics ([description](#a05e7673-6))
 
  fix using `mergeCommits` instead of `fixCommits`
 
- fix code block not showing everything ([description](#0db93166-7))
+ fix code block not showing everything ([description](#0db93166-6))
 ##### Merges
 
+ Merge branch 'hotfix/first-commit-on-same-line' into develop
+
+ Merge branch 'hotfix/first-commit-on-same-line'
 ##### Updates
+
+ update examples
 
  update examples
 
  update examples
 ##### Other
 
- escape fix symbol ([description](#5af6e59e-7))
+ escape fix symbol ([description](#5af6e59e-6))
 
  Initial commit
 ### Descriptions
