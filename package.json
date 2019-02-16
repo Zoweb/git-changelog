@@ -9,7 +9,8 @@
         "stringbuilder": "0.0.11"
     },
     "scripts": {
-        "start": "node ."
+        "start": "node .",
+        "changelog": "node . write . CHANGELOG.md -c disable -t heading -d inline"
     },
     "bin": "index"
 }
